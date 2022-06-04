@@ -9,7 +9,8 @@ import { WETH9 } from './weth9'
  */
 export class Ether extends NativeCurrency {
   protected constructor(chainId: number) {
-    super(chainId, 18, 'ETH', 'Ether')
+    const { decimals, symbol, name } = WETH9[chainId] || {}
+    super(chainId, decimals, symbol, name)
   }
 
   public get wrapped(): Token {
