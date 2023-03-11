@@ -15,9 +15,10 @@ export const WETH9: { [chainId: number]: Token } = {
 
   [42161]: new Token(42161, '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1', 18, 'WETH', 'Wrapped Ether'),
   [421611]: new Token(421611, '0xB47e6A5f8b33b3F17603C83a0535A9dcD7E32681', 18, 'WETH', 'Wrapped Ether'),
+  [421613]: new Token(421613, '0x420aC03E6165B8A3A6e28Ed6f497F0A101e4C0dB', 18, 'WETH', 'Wrapped Ether'),
 
   [322]: new Token(322, '0xB296bAb2ED122a85977423b602DdF3527582A3DA', 18, 'WKCS', 'Wrapped Kcs'),
   [97]: new Token(97, '0xABbc0dB80d50e4175CEC6A0efd43994a00c19b5F', 18, 'WBNB', 'Wrapped Bnb'),
 
-  [256]: new Token(256, '0x7af326b6351c8a9b8fb8cd205cbe11d4ac5fa836', 18, 'WHT', 'Wrapped Ht')
+  [256]: new Token(256, '0x7af326b6351c8a9b8fb8cd205cbe11d4ac5fa836', 18, 'WHT', 'Wrapped Ht'),
 }
